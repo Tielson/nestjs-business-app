@@ -1,17 +1,17 @@
+import { AuthModule } from '@module/auth.module';
+import { PrismaModule } from '@module/prisma.module';
+import { UserModule } from '@module/user.module';
 import { Module } from '@nestjs/common';
-import { DevtoolsModule } from '@nestjs/devtools-integration';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { UserController } from './controllers/user/user.controller';
-import { UserService } from './services/user/user.service';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
-    DevtoolsModule.register({
-      http: process.env.NODE_ENV !== 'production',
+    ConfigModule.forRoot({
+      isGlobal: true,
     }),
+    PrismaModule,
+    UserModule,
+    AuthModule,
   ],
-  controllers: [AppController, UserController],
-  providers: [AppService, UserService, ],
 })
 export class AppModule {}
