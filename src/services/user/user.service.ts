@@ -52,7 +52,7 @@ export class UserService {
       }});
       
 
-      await sendEmail(user.email, 'Bem-vindo ao ZENDA- Gestão Inteligente'
+      await sendEmail(user.email, 'Bem-vindo ao teste1- Gestão Inteligente'
         , registerMessage({ company: user.company }));
 
       return user;

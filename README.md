@@ -1,4 +1,4 @@
-<h1 align="center">ZENDA - Gestão Inteligente 👋</h1>
+<h1 align="center">Gestão Inteligente 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/startup" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/startup.svg">
@@ -12,7 +12,7 @@
 
 ## Objetivo
 
-O objetivo do ZENDA é fornecer uma solução completa e acessível para empresas que desejam gerenciar suas finanças, clientes e operações de forma eficiente e inteligente.
+O objetivo do teste1 é fornecer uma solução completa e acessível para empresas que desejam gerenciar suas finanças, clientes e operações de forma eficiente e inteligente.
 
 ## Funcionalidades
 
