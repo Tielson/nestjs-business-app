@@ -58,7 +58,7 @@ yarn run test
 
 👤 **Filipe Tielson**
 
-- Website: [https://tielson.netlify.app/](https://tielson.dominus.software/)
+- Website: [tielson.dominus.software](https://tielson.dominus.software/)
 - Github: [@tielson](https://github.com/tielson)
 - LinkedIn: [@Filipe Tielson](https://www.linkedin.com/in/filipe-tielson-developer/)
 
