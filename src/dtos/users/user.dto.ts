@@ -5,7 +5,6 @@ export class UserDto {
   id: string;
   company: string;
   email: string;
-  password: string;
   number: string;
   cnpj: string;
   payments: PaymentDto[] | null;
@@ -13,9 +12,9 @@ export class UserDto {
 }
 
 export class CreateUserDto {
+  id: string;
   company: string;
   email: string;
-  password: string;
   number: string;
   cnpj: string;
 }

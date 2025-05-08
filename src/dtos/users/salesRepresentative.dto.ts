@@ -1,6 +1,18 @@
 export class SalesRepresentativeDto {
-  id: string;
+  id: number;
   full_name: string;
-  date_of_birth: Date;
+  date_of_birth: string;
+  user_id: string;
+}
+
+export class CreateSalesRepresentativeDto {
+  full_name: string;
+  date_of_birth: string;
+  user_id: string;
+}
+
+export class UpdateSalesRepresentativeDto {
+  full_name: string;
+  date_of_birth: string;
   user_id: string;
 }

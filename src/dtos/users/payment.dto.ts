@@ -1,5 +1,5 @@
 export class PaymentDto {
-  id: string;
+  id: number;
   amount: number;
   date: Date;
   user_id: string;
